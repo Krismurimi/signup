@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap')
+html{
+    background-color: aquamarine;
+}
+.content{
+    border: 1px solid red;
+    display: flex;
+    margin: 0;
+}
+.picture{
+    width: 40%;
+    background-image: url("jacob-campbell-VhnTYfasszA-unsplash.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    background-color: hsla(0, 0%, 50%, 0.6);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(9, 9, 49);
+    margin-top: 60px;
+    
+}
+.banner > img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    margin: 0;
+}
+.fill-in{
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.text{
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-flow: wrap;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 50px;
+}
+div.first, div.last, div.email, div.tel,
+div.password, div.confirm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.button{
+    background-color: aqua;
+    height: 50px;
+    width: 170px;
+    border-radius: 20px;
+}
+input:hover{
+    border-color: lime;
+}
+input:active{
+    border-color: gold;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+a:hover{
+    color: slategrey;
+}
+a:active{
+    color: green;
+}
